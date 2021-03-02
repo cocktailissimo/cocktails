@@ -1,0 +1,97 @@
+{
+    "Cocktails": [
+    {
+          "id": 1,
+          "nom": "Pink Lady",
+          "illustration": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+          "ingredient": [
+          {
+                "pourcentage": "1/10",
+                "nomingredient": "brandy",
+                "complementingredient": "complement ingredient"
+          },
+          {
+                "pourcentage": "4/10",
+                "nomingredient": "jus orange",
+                "complementingredient": "complement ingredient"
+          },
+          {
+                "pourcentage": "5/10",
+                "nomingredient": "vodka",
+                "complementingredient": "complement ingredient"
+          }
+          ],
+          "recette":[
+                {
+                      "etape1":"etape 1",
+                      "etape2":"etape 2",
+                      "etape3":"etape 3"
+                }
+          ],
+          "remarques": "remarques",
+          "keys": "brandy orange vodka" 
+    },
+    {
+          "id": 2,
+          "nom": "Gin tonic",
+          "illustration": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+          "ingredient": [
+                {
+                      "pourcentage": "3/10",
+                      "nomingredient": "brandy",
+                      "complementingredient": "complement ingredient"
+                },
+                {
+                      "pourcentage": "2/10",
+                      "nomingredient": "jus orange",
+                      "complementingredient": "complement ingredient"
+                },
+                {
+                      "pourcentage": "5/10",
+                      "nomingredient": "gin",
+                      "complementingredient": "complement ingredient"
+                }
+          ],
+          "recette":[
+                {
+                      "etape1":"etape 1",
+                      "etape2":"etape 2",
+                      "etape3":"etape 3"
+                }
+          ],
+          "remarques": "remarques",
+          "keys": "brandy orange gin" 
+    },
+    {
+          "id": 3,
+          "nom": "test blablabla",
+          "illustration": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+          "ingredient": [
+                {
+                      "pourcentage": "3/10",
+                      "nomingredient": "grenadine",
+                      "complementingredient": "complement ingredient"
+                },
+                {
+                      "pourcentage": "2/10",
+                      "nomingredient": "ricard",
+                      "complementingredient": "complement ingredient"
+                },
+                {
+                      "pourcentage": "5/10",
+                      "nomingredient": "limoncello",
+                      "complementingredient": "complement ingredient"
+                }
+          ],
+          "recette":[
+                {
+                      "etape1":"etape 1",
+                      "etape2":"etape 2",
+                      "etape3":"etape 3"
+                }
+          ],
+          "remarques": "remarques",
+          "keys": "grenadine limoncello ricard" 
+    }
+    ]   
+}
