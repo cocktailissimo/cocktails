@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main{
+  padding: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search label{
+  padding-left: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dropdown {
+  background-color: white;
+  border: solid 1px black; 
+  display: none;
+  list-style-type: none;
+  max-height: 300px;
+  overflow: auto;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  max-width: 300px;
+}
+
+.isVisible {
+  display: block;
+}
+
+.isHidden {
+  display: none;
+}
+
+.dropdown li {
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropdown li a{
+  font-size:14px;
+  line-height: 18px;
+  text-decoration:none;
+}
+
+
+.dropdownhWrapper{
+  margin: 10px;
+  position: relative;
+}
+
+.list{
+  display:flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.list.isVisible{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.list li{
+  border: solid 1px black;
+  padding: 20px;
+  margin: 10px;
+  width: calc(20% - 20px);
+  min-width:200px;
+}
+
+.resourcesDisplay {
+  padding:  10px 10px 30px 10px;
+}
+
+.resourcesDisplay label{
+  margin-right:  20px;
+}
+
+mark{
   color: white;
+  font-weight: bold;
+  background-color: red;
 }
 
-.App-link {
-  color: #61dafb;
+.expanded{
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.collapsed{
+  display: none;
 }
